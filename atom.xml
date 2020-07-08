@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>skyshenmaの部落阁</title>
+  
+  <subtitle>skyshenmaの部落阁</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.skyshenma.top/"/>
+  <updated>2020-07-01T15:51:39.000Z</updated>
+  <id>https://blog.skyshenma.top/</id>
+  
+  <author>
+    <name>shenma</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker创建macvlan的办法之一</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/docker-chuang-jian-macvlan-de-ban-fa-zhi-yi/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/docker-chuang-jian-macvlan-de-ban-fa-zhi-yi/</id>
+    <published>2020-07-01T15:50:22.000Z</published>
+    <updated>2020-07-01T15:51:39.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;docker创建macvlan的办法之一&quot;&gt;&lt;a href=&quot;#docker创建macvlan的办法之一&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="docker" scheme="https://blog.skyshenma.top/categories/docker/"/>
+    
+    
+      <category term="docker" scheme="https://blog.skyshenma.top/tags/docker/"/>
+    
+      <category term="macvlan" scheme="https://blog.skyshenma.top/tags/macvlan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>detected的解决办法</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/detected-de-jie-jue-ban-fa/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/detected-de-jie-jue-ban-fa/</id>
+    <published>2020-07-01T14:58:30.000Z</published>
+    <updated>2020-07-01T15:03:28.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;npm-install错误。-gyp-No-Xcode-or-CLT-version-detected&quot;&gt;&lt;a href=&quot;#npm-install错误。-gyp-No-Xcode-or-CLT-version-detected&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="nodejs设置类" scheme="https://blog.skyshenma.top/categories/nodejs%E8%AE%BE%E7%BD%AE%E7%B1%BB/"/>
+    
+    
+      <category term="MAC类教程" scheme="https://blog.skyshenma.top/tags/MAC%E7%B1%BB%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="node.js" scheme="https://blog.skyshenma.top/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>申请fusion 360教育者账号</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/shen-qing-fusion-360-jiao-yu-zhe-zhang-hao/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/shen-qing-fusion-360-jiao-yu-zhe-zhang-hao/</id>
+    <published>2020-07-01T14:03:57.000Z</published>
+    <updated>2020-07-01T14:11:32.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;申请fusion-360教育者账号&quot;&gt;&lt;a href=&quot;#申请fusion-360教育者账号&quot; class=&quot;headerlink&quot; title=&quot;申请fusion 360教育者账号&quot;&gt;&lt;/a&gt;申请fusion
+        
+      
+    
+    </summary>
+    
+      <category term="3d建模软件" scheme="https://blog.skyshenma.top/categories/3d%E5%BB%BA%E6%A8%A1%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="3d打印机" scheme="https://blog.skyshenma.top/categories/3d%E5%BB%BA%E6%A8%A1%E8%BD%AF%E4%BB%B6/3d%E6%89%93%E5%8D%B0%E6%9C%BA/"/>
+    
+    
+      <category term="3d建模" scheme="https://blog.skyshenma.top/tags/3d%E5%BB%BA%E6%A8%A1/"/>
+    
+      <category term="3d打印机" scheme="https://blog.skyshenma.top/tags/3d%E6%89%93%E5%8D%B0%E6%9C%BA/"/>
+    
+      <category term="fusion 360" scheme="https://blog.skyshenma.top/tags/fusion-360/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>noder-red笔记-tc1通过nr接入HomeKit流程解说</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/noder-red-bi-ji-tc1-tong-guo-nr-jie-ru-homekit-liu-cheng-jie-shuo/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/noder-red-bi-ji-tc1-tong-guo-nr-jie-ru-homekit-liu-cheng-jie-shuo/</id>
+    <published>2020-07-01T13:53:20.000Z</published>
+    <updated>2020-07-01T14:23:26.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;noder-red笔记-tc1通过nr接入HomeKit流程解说&quot;&gt;&lt;a href=&quot;#noder-red笔记-tc1通过nr接入HomeKit流程解说&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="node-red" scheme="https://blog.skyshenma.top/categories/node-red/"/>
+    
+      <category term="智能家居" scheme="https://blog.skyshenma.top/categories/node-red/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+      <category term="HomeKit" scheme="https://blog.skyshenma.top/categories/node-red/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/HomeKit/"/>
+    
+    
+      <category term="node-red" scheme="https://blog.skyshenma.top/tags/node-red/"/>
+    
+      <category term="智能家居" scheme="https://blog.skyshenma.top/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+      <category term="HomeKit" scheme="https://blog.skyshenma.top/tags/HomeKit/"/>
+    
+      <category term="iobroker论坛" scheme="https://blog.skyshenma.top/tags/iobroker%E8%AE%BA%E5%9D%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手把手教你把命令行转换为图形化建立docker及macvlan的简单介绍</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/shou-ba-shou-jiao-ni-ba-ming-ling-xing-zhuan-huan-wei-tu-xing-hua-jian-li-docker-ji-macvlan-de-jian-dan-jie-shao/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/shou-ba-shou-jiao-ni-ba-ming-ling-xing-zhuan-huan-wei-tu-xing-hua-jian-li-docker-ji-macvlan-de-jian-dan-jie-shao/</id>
+    <published>2020-07-01T13:43:14.000Z</published>
+    <updated>2020-07-01T14:35:52.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;手把手教你把命令行转换为图形化建立docker及macvlan的简单介绍&quot;&gt;&lt;a href=&quot;#手把手教你把命令行转换为图形化建立docker及macvlan的简单介绍&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="docker" scheme="https://blog.skyshenma.top/categories/docker/"/>
+    
+    
+      <category term="docker" scheme="https://blog.skyshenma.top/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Esxi安装集客ac教程</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/esxi-an-zhuang-ji-ke-ac-jiao-cheng/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/esxi-an-zhuang-ji-ke-ac-jiao-cheng/</id>
+    <published>2020-07-01T13:34:57.000Z</published>
+    <updated>2020-07-01T13:41:15.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;大家好，我又来做笔记了，跟着zhz大佬上车几个ap之后，发现集客这个是真的香 ，下面开始无脑教学&lt;/p&gt;
+&lt;p&gt;Esxi大家都熟悉了，我就不介绍了，我用的是esxi 7.0 是真的香，来张镇宅图&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="ESXI虚拟机" scheme="https://blog.skyshenma.top/categories/ESXI%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+      <category term="EXSI虚拟机" scheme="https://blog.skyshenma.top/tags/EXSI%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+      <category term="集客ap" scheme="https://blog.skyshenma.top/tags/%E9%9B%86%E5%AE%A2ap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无线AP硬改支持集客256M内存启动</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/wu-xian-ap-ying-gai-zhi-chi-ji-ke-256m-nei-cun-qi-dong/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/wu-xian-ap-ying-gai-zhi-chi-ji-ke-256m-nei-cun-qi-dong/</id>
+    <published>2020-07-01T13:27:19.000Z</published>
+    <updated>2020-07-01T13:33:11.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;H3C-WA4320H-ACN-无线AP硬改支持集客256M内存启动&quot;&gt;&lt;a href=&quot;#H3C-WA4320H-ACN-无线AP硬改支持集客256M内存启动&quot; class=&quot;headerlink&quot; title=&quot;H3C WA4320H-ACN
+        
+      
+    
+    </summary>
+    
+      <category term="硬件改造" scheme="https://blog.skyshenma.top/categories/%E7%A1%AC%E4%BB%B6%E6%94%B9%E9%80%A0/"/>
+    
+      <category term="ap" scheme="https://blog.skyshenma.top/categories/%E7%A1%AC%E4%BB%B6%E6%94%B9%E9%80%A0/ap/"/>
+    
+    
+      <category term="集客ap" scheme="https://blog.skyshenma.top/tags/%E9%9B%86%E5%AE%A2ap/"/>
+    
+      <category term="硬件改造" scheme="https://blog.skyshenma.top/tags/%E7%A1%AC%E4%BB%B6%E6%94%B9%E9%80%A0/"/>
+    
+      <category term="设备diy" scheme="https://blog.skyshenma.top/tags/%E8%AE%BE%E5%A4%87diy/"/>
+    
+      <category term="无限ap" scheme="https://blog.skyshenma.top/tags/%E6%97%A0%E9%99%90ap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PicGo配合Gitee实现图片上传</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/picgo-pei-he-gitee-shi-xian-tu-pian-shang-chuan/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/picgo-pei-he-gitee-shi-xian-tu-pian-shang-chuan/</id>
+    <published>2020-07-01T13:14:08.000Z</published>
+    <updated>2020-07-01T13:16:19.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;PicGo配合Gitee实现图片上传&quot;&gt;&lt;a href=&quot;#PicGo配合Gitee实现图片上传&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="图床" scheme="https://blog.skyshenma.top/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typora入门（中文版）</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/typora-ru-men-zhong-wen-ban/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/typora-ru-men-zhong-wen-ban/</id>
+    <published>2020-07-01T13:04:13.000Z</published>
+    <updated>2020-07-01T13:07:02.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Typora&quot;&gt;&lt;a href=&quot;#Typora&quot; class=&quot;headerlink&quot; title=&quot;Typora&quot;&gt;&lt;/a&gt;Typora&lt;/h2&gt;&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Markdown语法" scheme="https://blog.skyshenma.top/categories/Markdown%E8%AF%AD%E6%B3%95/"/>
+    
+    
+      <category term="Markdown语法" scheme="https://blog.skyshenma.top/tags/Markdown%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MAC中的npm权限问题</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/mac-zhong-de-npm-quan-xian-wen-ti/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/mac-zhong-de-npm-quan-xian-wen-ti/</id>
+    <published>2020-07-01T07:00:31.000Z</published>
+    <updated>2020-07-08T07:02:46.395Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;简短介绍&quot;&gt;&lt;a href=&quot;#简短介绍&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="nadejs设置类" scheme="https://blog.skyshenma.top/categories/nadejs%E8%AE%BE%E7%BD%AE%E7%B1%BB/"/>
+    
+    
+      <category term="MAC类教程" scheme="https://blog.skyshenma.top/tags/MAC%E7%B1%BB%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="node.js" scheme="https://blog.skyshenma.top/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MAC完全卸载nodejs</title>
+    <link href="https://blog.skyshenma.top/2020/07/01/mac-wan-quan-xie-zai-nodejs/"/>
+    <id>https://blog.skyshenma.top/2020/07/01/mac-wan-quan-xie-zai-nodejs/</id>
+    <published>2020-07-01T07:00:31.000Z</published>
+    <updated>2020-07-01T07:19:38.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;简短介绍&quot;&gt;&lt;a href=&quot;#简短介绍&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="nadejs设置类" scheme="https://blog.skyshenma.top/categories/nadejs%E8%AE%BE%E7%BD%AE%E7%B1%BB/"/>
+    
+    
+      <category term="MAC类教程" scheme="https://blog.skyshenma.top/tags/MAC%E7%B1%BB%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="node.js" scheme="https://blog.skyshenma.top/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客开源</title>
+    <link href="https://blog.skyshenma.top/2019/08/27/blog-open-source/"/>
+    <id>https://blog.skyshenma.top/2019/08/27/blog-open-source/</id>
+    <published>2019-08-27T03:41:03.000Z</published>
+    <updated>2020-07-01T14:23:24.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;效果演示&quot;&gt;&lt;a href=&quot;#效果演示&quot; class=&quot;headerlink&quot; title=&quot;效果演示&quot;&gt;&lt;/a&gt;效果演示&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="软件安装与配置" scheme="https://blog.skyshenma.top/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.skyshenma.top/tags/Hexo/"/>
+    
+      <category term="Github" scheme="https://blog.skyshenma.top/tags/Github/"/>
+    
+      <category term="博客" scheme="https://blog.skyshenma.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
