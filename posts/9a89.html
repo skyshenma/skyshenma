@@ -502,7 +502,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    898
+                    897
                 </div>
                 
 
@@ -525,20 +525,15 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="ESXi7-0-使用-NUT-Client-连接群晖nas的UPS服务器"><a href="#ESXi7-0-使用-NUT-Client-连接群晖nas的UPS服务器" class="headerlink" title="ESXi7.0 使用 NUT Client 连接群晖nas的UPS服务器"></a>ESXi7.0 使用 NUT Client 连接群晖nas的UPS服务器</h1><p>好久好久之前购入一个APC BK650的UPS，之前一直是把UPS的COM数据给群晖，毕竟里面的小姐姐要紧，其实一直都有ESXI虚拟化平台，还一直不知道可以通过NUT Clinent（下面简称NUT）链接群晖上的UPS服务器选项。这样的话，esxi上的数据也得不到保障，毕竟里面有24t的数据，也是虚拟化了个群晖系统，用的是sas硬盘。经过一顿搜索，终于找到了方法，一顿操作猛如虎，哎呀，真香。废话不多说，下面开启教程。</p>
-<h2 id="1、群晖端操作。"><a href="#1、群晖端操作。" class="headerlink" title="1、群晖端操作。"></a>1、群晖端操作。</h2><p>1-1、首先登录群晖，并吧ups的com线连接到群晖上，我是918+，直接连接到菊花后面的那个口子。连接上之后</p>
-<p>控制面板—-硬件和电源—-不断电系统—–如下图：</p>
+<h2 id="1、群晖端操作。"><a href="#1、群晖端操作。" class="headerlink" title="1、群晖端操作。"></a>1、群晖端操作。</h2><h3 id="1-1、首先登录群晖，并吧ups的com线连接到群晖上，我是918-，直接连接到菊花后面的那个口子。连接上之后"><a href="#1-1、首先登录群晖，并吧ups的com线连接到群晖上，我是918-，直接连接到菊花后面的那个口子。连接上之后" class="headerlink" title="1-1、首先登录群晖，并吧ups的com线连接到群晖上，我是918+，直接连接到菊花后面的那个口子。连接上之后"></a>1-1、首先登录群晖，并吧ups的com线连接到群晖上，我是918+，直接连接到菊花后面的那个口子。连接上之后</h3><p>控制面板—-硬件和电源—-不断电系统—–如下图：</p>
 <p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204165452.png" alt="image-20210204165452574"></p>
-<p>1-2、可以点击设备信息查看下是否连接到了ups。</p>
-<h2 id="2、esxi端操作"><a href="#2、esxi端操作" class="headerlink" title="2、esxi端操作"></a>2、esxi端操作</h2><p>2-1、用ssh进到ESXI，默认是关闭的，需要在ESXI里面打开ssh服务。</p>
-<p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204165925.png" alt="image-20210204165925664"></p>
-<p>2-2、下载7.0的nut插件。这里引用一下大佬的博客连接：<a href="https://blog.visionwyz.com/?p=216" target="_blank" rel="noopener">木星实验室</a></p>
-<p>其中提到6.7跟7.0的版本不能通用，所以要去一个外网博客进行下载，这边提供下外网博客<a href="https://rene.margar.fr/2012/05/client-nut-pour-esxi-5-0/" target="_blank" rel="noopener">下载地址</a></p>
+<h3 id="1-2、可以点击设备信息查看下是否连接到了ups。"><a href="#1-2、可以点击设备信息查看下是否连接到了ups。" class="headerlink" title="1-2、可以点击设备信息查看下是否连接到了ups。"></a>1-2、可以点击设备信息查看下是否连接到了ups。</h3><h2 id="2、esxi端操作"><a href="#2、esxi端操作" class="headerlink" title="2、esxi端操作"></a>2、esxi端操作</h2><h3 id="2-1、用ssh进到ESXI，默认是关闭的，需要在ESXI里面打开ssh服务。"><a href="#2-1、用ssh进到ESXI，默认是关闭的，需要在ESXI里面打开ssh服务。" class="headerlink" title="2-1、用ssh进到ESXI，默认是关闭的，需要在ESXI里面打开ssh服务。"></a>2-1、用ssh进到ESXI，默认是关闭的，需要在ESXI里面打开ssh服务。</h3><p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204165925.png" alt="image-20210204165925664"></p>
+<h3 id="2-2、下载7-0的nut插件。这里引用一下大佬的博客连接：木星实验室"><a href="#2-2、下载7-0的nut插件。这里引用一下大佬的博客连接：木星实验室" class="headerlink" title="2-2、下载7.0的nut插件。这里引用一下大佬的博客连接：木星实验室"></a>2-2、下载7.0的nut插件。这里引用一下大佬的博客连接：<a href="https://blog.visionwyz.com/?p=216" target="_blank" rel="noopener">木星实验室</a></h3><p>其中提到6.7跟7.0的版本不能通用，所以要去一个外网博客进行下载，这边提供下外网博客<a href="https://rene.margar.fr/2012/05/client-nut-pour-esxi-5-0/" target="_blank" rel="noopener">下载地址</a></p>
 <p>或者直接用我下载好的。链接: <a href="https://pan.baidu.com/s/1V2cFvw6rzn68U2hR2KbALQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1V2cFvw6rzn68U2hR2KbALQ</a>  密码: g6q0</p>
 <p>下载好之后，通过ssh链接登录到esxi上，把文件放进去：</p>
 <p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204170945.png" alt="image-20210204170945784"></p>
 <p>怎么上传这玩意，不用说了吧，我是直接拖进去，就是这么粗暴。</p>
-<p>2-3、解压安装NUT Client</p>
-<p>解压刚刚拖进/tmp目录里面的NutClient-ESXi-2.1.1.i386.tar.gz文件，命令：</p>
+<h3 id="2-3、解压安装NUT-Client"><a href="#2-3、解压安装NUT-Client" class="headerlink" title="2-3、解压安装NUT Client"></a>2-3、解压安装NUT Client</h3><p>解压刚刚拖进/tmp目录里面的NutClient-ESXi-2.1.1.i386.tar.gz文件，命令：</p>
 <pre class=" language-tar"><code class="language-tar"># 解压文件
 tar xvf NutClient-ESXi-2.1.1.i386.tar.gz
 </code></pre>
@@ -558,8 +553,7 @@ Installation Result
 # 重启一次
 reboot</code></pre><p>最终操作截图：</p>
 <p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204171848.png" alt="image-20210204171848861"></p>
-<p>2-4、配置NUT Client</p>
-<p>重启完esxi之后，进  管理-系统-高级管理，输入nut进行搜索：</p>
+<h3 id="2-4、配置NUT-Client"><a href="#2-4、配置NUT-Client" class="headerlink" title="2-4、配置NUT Client"></a>2-4、配置NUT Client</h3><p>重启完esxi之后，进  管理-系统-高级管理，输入nut进行搜索：</p>
 <p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204172106.png" alt="image-20210204172106653"></p>
 <p>这里我直接复制大佬博客的</p>
 <pre><code>UserVars.NutUpsName：ups@192.168.199.222（这里的地址填NAS的地址，我是192.168.199.222）
@@ -568,16 +562,14 @@ UserVars.NutPassword：secret（密码，怎么设置看下面）（这里我填
 UserVars.NutFinalDelay：60（关机时间，我这是 1 分钟后关闭 esxi）
 
 配置完后在 vSphere Client 的配置 - 安全配置文件 - 服务 -NutClient 设置与主机一起启动和停止（NutClient 是守护进程，要先配置 UserVars 中的 NUT 参数再运行 NutClient 服务。并且每次修改 UserVars 参数后都要重启 NutClient 服务才有用）看下图：</code></pre><p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204172439.png" alt="image-20210204172439398"></p>
-<p>2-5、验证esxi是否连接到了群晖的ups服务</p>
-<p>设置成功之后，因为重启过，需要重新开启ssh服务（参照2-1）</p>
+<h3 id="2-5、验证esxi是否连接到了群晖的ups服务"><a href="#2-5、验证esxi是否连接到了群晖的ups服务" class="headerlink" title="2-5、验证esxi是否连接到了群晖的ups服务"></a>2-5、验证esxi是否连接到了群晖的ups服务</h3><p>设置成功之后，因为重启过，需要重新开启ssh服务（参照2-1）</p>
 <p>链接到esxi的ssh之后，在ssh里面执行以下命令：</p>
 <pre><code>/opt/nut/bin/upsc ups@192.168.199.222(你nas的ip，即你ups服务器ip)</code></pre><p>提示如下信息证明已成功连接到ups：</p>
 <p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204172907.png" alt="image-20210204172907321"></p>
 <p>验证防火墙设置，执行以下代码：</p>
 <pre><code>esxcli network firewall ruleset list
 ## 看见NutServer为true时，表示正常。如下图：</code></pre><p><img src="https://gitee.com/skyshenma/blogimg/raw/master/img/20210204173215.png" alt="image-20210204173215634"></p>
-<p>到此，教程结束</p>
-
+<h1 id="到此，教程结束"><a href="#到此，教程结束" class="headerlink" title="到此，教程结束"></a>到此，教程结束</h1>
             </div>
             <hr/>
 
