@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.skyshenma.top/"/>
-  <updated>2021-02-04T09:47:43.655Z</updated>
+  <updated>2021-03-31T09:50:40.810Z</updated>
   <id>https://blog.skyshenma.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>debian新装硬盘并挂载home到独立分区</title>
+    <link href="https://blog.skyshenma.top/posts/4c72.html"/>
+    <id>https://blog.skyshenma.top/posts/4c72.html</id>
+    <published>2021-03-31T09:47:37.000Z</published>
+    <updated>2021-03-31T09:50:40.810Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;debian新装硬盘并挂载home到独立分区&quot;&gt;&lt;a href=&quot;#debian新装硬盘并挂载home到独立分区&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="debian" scheme="https://blog.skyshenma.top/categories/debian/"/>
+    
+    
+      <category term="debian linux" scheme="https://blog.skyshenma.top/tags/debian-linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ESXi7.0 使用 NUT Client 连接群晖nas的UPS服务器</title>
     <link href="https://blog.skyshenma.top/posts/9a89.html"/>
     <id>https://blog.skyshenma.top/posts/9a89.html</id>
     <published>2021-02-04T08:39:36.000Z</published>
-    <updated>2021-02-04T09:47:43.655Z</updated>
+    <updated>2021-02-04T09:50:50.961Z</updated>
     
     <summary type="html">
     
@@ -367,11 +394,11 @@
   </entry>
   
   <entry>
-    <title>MAC中的npm权限问题</title>
-    <link href="https://blog.skyshenma.top/posts/6b9.html"/>
-    <id>https://blog.skyshenma.top/posts/6b9.html</id>
+    <title>MAC完全卸载nodejs</title>
+    <link href="https://blog.skyshenma.top/posts/1abe.html"/>
+    <id>https://blog.skyshenma.top/posts/1abe.html</id>
     <published>2020-07-01T07:00:31.000Z</published>
-    <updated>2021-02-04T09:38:40.842Z</updated>
+    <updated>2021-02-04T09:38:28.828Z</updated>
     
     <summary type="html">
     
@@ -396,11 +423,11 @@
   </entry>
   
   <entry>
-    <title>MAC完全卸载nodejs</title>
-    <link href="https://blog.skyshenma.top/posts/1abe.html"/>
-    <id>https://blog.skyshenma.top/posts/1abe.html</id>
+    <title>MAC中的npm权限问题</title>
+    <link href="https://blog.skyshenma.top/posts/6b9.html"/>
+    <id>https://blog.skyshenma.top/posts/6b9.html</id>
     <published>2020-07-01T07:00:31.000Z</published>
-    <updated>2021-02-04T09:38:28.828Z</updated>
+    <updated>2021-02-04T09:38:40.842Z</updated>
     
     <summary type="html">
     
